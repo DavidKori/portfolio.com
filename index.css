@@ -492,6 +492,7 @@ transition: transform 0.2s ease;
   flex-direction: column;
   justify-self: center;
   margin-top:40px;
+  column-gap: 10px;
 }
 
 .mainsec {
@@ -499,6 +500,7 @@ transition: transform 0.2s ease;
   align-items: center;
   column-gap: 1rem;
   justify-items: center;
+  margin-bottom: 10px;
 } 
 .mainsec:hover {
   background: white;
