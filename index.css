@@ -115,6 +115,7 @@ nav ul li:hover {
   border-radius: 20px;
   margin-top: 80px;
   position: relative;
+  border-left: 6px solid red;
 }
 .alert-section > h4 {
   text-align: left;
@@ -182,6 +183,9 @@ margin-bottom: 20px;
   font-style: italic;
   max-width: 80%;
   margin: auto;
+
+
+
 }
 
 .alert-cancel {
