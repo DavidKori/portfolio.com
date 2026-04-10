@@ -2,6 +2,7 @@
 html{
   scroll-behavior: smooth;
 }
+
 .hide {
   display: none !important;
 }
@@ -381,15 +382,16 @@ button:hover{
 /*EDUCATION SECTION*/
 .education{
     min-width: 480px;
-    width: 100vw;
     background: #ffffff;
     position: relative;
     top: 110px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 90vw;
+    width: 90% !important;
     justify-self: center;
     border-radius: 10px;
+    overflow-x: hidden;
     
 }
 .education-entry {
@@ -769,6 +771,12 @@ li img{
     color: white;
     width: 90vw;
   }
+  .course-list{
+    margin-right: 0px;
+    margin-left: 10px;
+    text-align: center;
+    list-style:circle;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -915,6 +923,11 @@ margin-bottom: 20px;
     border-bottom: 2px solid white;
     
   }
+  .education {
+    width: 60px !important;
+    overflow-x: hidden !important;
+   
+  }
 
 .education-entry{
   width: 90vw;
@@ -1009,6 +1022,12 @@ margin-bottom: 20px;
   .alert-text {
     width: 100%;
   }
+  .interest > p ,
+.interest > ul{
+    background: #c1bebe62;
+    padding: 10px;
+ 
+}
 }
 @media (max-width:450px) {
   .main-portfolio{
