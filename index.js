@@ -69,4 +69,29 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+//The alert section functionality
+document.addEventListener("DOMContentLoaded", function () {
+  const closeBtn = document.getElementById("cancelBtn");
+  const alertSection = document.getElementById("alertSection")
+  const aboutMeSection = document.getElementById("aboutme")
+  setTimeout(() => {
+     alertSection.classList.remove('hide')
+    aboutMeSection.classList.add("aboutme2")
+    aboutMeSection.classList.remove('aboutme')
+  }, 2500);
+  closeBtn.addEventListener("click",() => {
+    if (!alertSection.classList.contains("hide")) {
+      alertSection.classList.add('hide')
+      aboutMeSection.classList.add("aboutme")
+      aboutMeSection.classList.remove('aboutme2')
+
+    }else {
+      alertSection.classList.remove('hide')
+     
+    }
+    
+  })
+})
+
+
 
