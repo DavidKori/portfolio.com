@@ -381,7 +381,7 @@ button:hover{
 
 /*EDUCATION SECTION*/
 .education{
-    min-width: 480px;
+    min-width: 90%;
     background: #ffffff;
     position: relative;
     top: 110px;
@@ -392,6 +392,7 @@ button:hover{
     justify-self: center;
     border-radius: 10px;
     overflow-x: hidden;
+    
     
 }
 .education-entry {
