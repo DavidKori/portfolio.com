@@ -386,8 +386,9 @@ button:hover{
     position: relative;
     top: 110px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     width: 90% !important;
     justify-self: center;
     border-radius: 10px;
